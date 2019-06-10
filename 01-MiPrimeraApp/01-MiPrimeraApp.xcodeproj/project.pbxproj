@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0102BD4622AEB0DD00146819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FAF6CB22A5B96500BA808F /* Assets.xcassets */; };
+		01AF18A322AE992C0038EAF3 /* DriverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF18A222AE992C0038EAF3 /* DriverRow.swift */; };
+		01AF18A522AEA46A0038EAF3 /* DriversList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF18A422AEA46A0038EAF3 /* DriversList.swift */; };
 		01C40F4722AC1F58008B5D42 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40F4622AC1F58008B5D42 /* Driver.swift */; };
 		01C40F4922AD0825008B5D42 /* StatsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C40F4822AD0825008B5D42 /* StatsRow.swift */; };
 		01FAF6C622A5B96300BA808F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAF6C522A5B96300BA808F /* AppDelegate.swift */; };
 		01FAF6C822A5B96300BA808F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAF6C722A5B96300BA808F /* SceneDelegate.swift */; };
-		01FAF6CA22A5B96300BA808F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAF6C922A5B96300BA808F /* ContentView.swift */; };
-		01FAF6CC22A5B96500BA808F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FAF6CB22A5B96500BA808F /* Assets.xcassets */; };
+		01FAF6CA22A5B96300BA808F /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FAF6C922A5B96300BA808F /* DriverDetail.swift */; };
 		01FAF6CF22A5B96500BA808F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FAF6CE22A5B96500BA808F /* Preview Assets.xcassets */; };
 		01FAF6D222A5B96500BA808F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01FAF6D022A5B96500BA808F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01AF18A222AE992C0038EAF3 /* DriverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRow.swift; sourceTree = "<group>"; };
+		01AF18A422AEA46A0038EAF3 /* DriversList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversList.swift; sourceTree = "<group>"; };
 		01C40F4622AC1F58008B5D42 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 		01C40F4822AD0825008B5D42 /* StatsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRow.swift; sourceTree = "<group>"; };
 		01FAF6C222A5B96300BA808F /* 01-MiPrimeraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-MiPrimeraApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FAF6C522A5B96300BA808F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01FAF6C722A5B96300BA808F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01FAF6C922A5B96300BA808F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01FAF6C922A5B96300BA808F /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
 		01FAF6CB22A5B96500BA808F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01FAF6CE22A5B96500BA808F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01FAF6D122A5B96500BA808F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,8 +66,10 @@
 			children = (
 				01FAF6C522A5B96300BA808F /* AppDelegate.swift */,
 				01FAF6C722A5B96300BA808F /* SceneDelegate.swift */,
-				01FAF6C922A5B96300BA808F /* ContentView.swift */,
+				01FAF6C922A5B96300BA808F /* DriverDetail.swift */,
 				01C40F4822AD0825008B5D42 /* StatsRow.swift */,
+				01AF18A222AE992C0038EAF3 /* DriverRow.swift */,
+				01AF18A422AEA46A0038EAF3 /* DriversList.swift */,
 				01C40F4622AC1F58008B5D42 /* Driver.swift */,
 				01FAF6CB22A5B96500BA808F /* Assets.xcassets */,
 				01FAF6D022A5B96500BA808F /* LaunchScreen.storyboard */,
@@ -140,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01FAF6D222A5B96500BA808F /* LaunchScreen.storyboard in Resources */,
+				0102BD4622AEB0DD00146819 /* Assets.xcassets in Resources */,
 				01FAF6CF22A5B96500BA808F /* Preview Assets.xcassets in Resources */,
-				01FAF6CC22A5B96500BA808F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01AF18A522AEA46A0038EAF3 /* DriversList.swift in Sources */,
+				01AF18A322AE992C0038EAF3 /* DriverRow.swift in Sources */,
 				01FAF6C622A5B96300BA808F /* AppDelegate.swift in Sources */,
 				01FAF6C822A5B96300BA808F /* SceneDelegate.swift in Sources */,
-				01FAF6CA22A5B96300BA808F /* ContentView.swift in Sources */,
+				01FAF6CA22A5B96300BA808F /* DriverDetail.swift in Sources */,
 				01C40F4722AC1F58008B5D42 /* Driver.swift in Sources */,
 				01C40F4922AD0825008B5D42 /* StatsRow.swift in Sources */,
 			);

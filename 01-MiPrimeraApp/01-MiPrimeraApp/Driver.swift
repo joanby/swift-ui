@@ -32,7 +32,7 @@ let renault = Team(color: Color(red: 240.0/255.0, green: 238.0/255.0, blue: 95.0
 let mclaren = Team(color: Color(red: 240.0/255.0, green: 172.0/255.0, blue: 61.0/255.0), imageName: "car_mclaren")
 
 let drivers = [
-    Driver(id: 0, name: "Lewis Hammilton", imageName: "hamilton",
+    Driver(id: 0, name: "Lewis Hamilton", imageName: "hamilton",
            team: mercedes, age: 34, number: 44 , birthPlace: "Reino Unido"),
     Driver(id: 1, name: "Valteri Bottas", imageName: "bottas",
            team: mercedes, age: 29, number: 77 , birthPlace: "Finlandia"),
@@ -47,8 +47,8 @@ let drivers = [
     Driver(id: 5, name: "Pierre Gasly", imageName: "gasly",
            team: redbull, age: 23, number: 10 , birthPlace: "Francia"),
 
-    Driver(id: 6, name: "Nico Hulkenberg", imageName: "hulkenberg",
-           team: renault, age: 31, number: 27 , birthPlace: "Alemania"),
+//    Driver(id: 6, name: "Nico Hulkenberg", imageName: "hulkenberg",
+//           team: renault, age: 31, number: 27 , birthPlace: "Alemania"),
     Driver(id: 7, name: "Daniel Ricciardo", imageName: "ricciardo",
            team: renault, age: 29, number: 3 , birthPlace: "Australia"),
 
