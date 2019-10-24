@@ -19,6 +19,8 @@ struct DriverDetail : View {
                 .frame(height: 230)
             
             Image(driver.imageName)
+                .resizable()
+                .scaledToFit()
                 .clipShape(Circle())
                 .background(Circle().foregroundColor(.white))
                 .overlay(Circle().stroke(Color.white, lineWidth: 3))
@@ -29,6 +31,8 @@ struct DriverDetail : View {
             Text(driver.name)
                 .font(.system(size: 45))
                 .fontWeight(.bold)
+                .padding(.horizontal)
+                .minimumScaleFactor(0.5)
             
             StatsRow(statKey: "Edad", statValue: String(driver.age))
 
@@ -45,7 +49,28 @@ struct DriverDetail : View {
 #if DEBUG
 struct DrivereDetail_Previews : PreviewProvider {
     static var previews: some View {
-        DriverDetail(driver: drivers[2])
+        Group  {
+            DriverDetail(driver: drivers[6])
+                .previewDevice("iPhone XS Max")
+                .environment(\.sizeCategory, .extraExtraExtraLarge)
+                .previewDisplayName("XS Max - XXL")
+            
+//            DriverDetail(driver: drivers[0])
+//                .previewDevice("iPhone XS Max")
+//                .environment(\.sizeCategory, .extraSmall)
+//                .previewDisplayName("XS Max - XS")
+            
+            DriverDetail(driver: drivers[0])
+                .previewDevice("iPhone SE")
+                .environment(\.sizeCategory, .extraExtraExtraLarge)
+                .previewDisplayName("SE - XXL")
+            
+//            DriverDetail(driver: drivers[0])
+//                .previewDevice("iPhone SE")
+//                .environment(\.sizeCategory, .extraSmall)
+//                .previewDisplayName("SE - XS")
+          
+        }
     }
 }
 #endif

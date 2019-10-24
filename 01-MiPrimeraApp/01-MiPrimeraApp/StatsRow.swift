@@ -29,7 +29,7 @@ struct StatsRow : View {
             
             Spacer()
 
-        }
+        }.minimumScaleFactor(0.5)
         
     }
 }
